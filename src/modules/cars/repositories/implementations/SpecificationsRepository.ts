@@ -1,5 +1,5 @@
-import { Specification } from "../model/Especification";
-import { ICreateSpecificationDTO, ISpecificationsRepository } from "./ISpecificationsRepository";
+import { Specification } from "../../model/Especification";
+import { ICreateSpecificationDTO, ISpecificationsRepository } from "../ISpecificationsRepository";
 
 
 class SpecificationsRepository implements ISpecificationsRepository {
@@ -8,7 +8,7 @@ class SpecificationsRepository implements ISpecificationsRepository {
     constructor() {
         this.specifications = [];
     }
-   
+       
 
     create({ description, name }: ICreateSpecificationDTO): void {
         const specification = new Specification();
