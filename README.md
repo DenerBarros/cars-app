@@ -4,3 +4,4 @@
 [X] Create specifications for car;
 [x] Use DTO
 [x] Use S.O.L.I.D parameter;
+[x] Use Pipe with stream for NodeJS
